@@ -32,34 +32,36 @@ Ahaar Adda is a Java-based full-stack online food delivery web app built using *
 
 ##  Project Folder Structure
 
-FoodDeliveryApp
-|---src
-|  |----main
-|  |   |----java
-|  |   |   |-----db
-|  |   |   |    |----DBConnection.java
-|  |   |   |------servlets
-|  |   |   |    |-----CartServlet.java
-|  |   |   |    |-----LoginServlet.java
-|  |   |   |    |-----RegisterServlet.java
-|  |   |   |    |-----MenuServlet.java
-|  |   |   |    |-----HomeServlet.java
-|  |   |   |    |-----OrderServlet.java
-|  |   |   |    |-----OrderHistoryServlet.java
-|  |   |   |    |-----PaymentServlet.java
-|  |   |----webapp
-|  |   |   |------Images
-|  |   |   |   |----background2.jpeg,restaurant.jpeg,ahaaradda.png etc
-|  |   |   |------cart.jsp
-|  |   |   |------index.jsp
-|  |   |   |------menu.jsp
-|  |   |   |------home.jsp
-|  |   |   |------login.jsp
-|  |   |   |------order.jsp
-|  |   |   |------orderHistory.jsp
-|  |   |   |------payment.jsp
-|  |   |   |------register.jsp
-|  |   |   |------restaurant.jsp
+FoodDeliveryApp/
+├── src/
+│ └── main/
+│ ├── java/
+│ │ ├── db/
+│ │ │ └── DBConnection.java
+│ │ └── servlets/
+│ │ ├── CartServlet.java
+│ │ ├── LoginServlet.java
+│ │ ├── RegisterServlet.java
+│ │ ├── MenuServlet.java
+│ │ ├── HomeServlet.java
+│ │ ├── OrderServlet.java
+│ │ ├── OrderHistoryServlet.java
+│ │ └── PaymentServlet.java
+│ └── webapp/
+│ ├── Images/
+│ │ ├── background2.jpeg
+│ │ ├── restaurant.jpeg
+│ │ └── ahaaradda.png
+│ ├── index.jsp
+│ ├── login.jsp
+│ ├── register.jsp
+│ ├── home.jsp
+│ ├── menu.jsp
+│ ├── cart.jsp
+│ ├── order.jsp
+│ ├── orderHistory.jsp
+│ ├── payment.jsp
+│ └── restaurant.jsp
 
 ---
 
